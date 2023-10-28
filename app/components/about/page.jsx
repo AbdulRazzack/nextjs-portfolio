@@ -25,8 +25,8 @@ const TAB_DATA=[
         id : "education",
         content : (
             <ul>
-                <li>St. Paul's High School</li>
-                <li>St. Joeseph's Junior College</li>
+                <li>St. Paul&apos;s High School</li>
+                <li>St. Joeseph&apos;s Junior College</li>
                 <li>Swami Vivekanada Institute Of Technology</li>
                 
             </ul>
