@@ -25,8 +25,8 @@ const TAB_DATA=[
         id : "education",
         content : (
             <ul>
-                <li>St. Paul's High School</li>
-                <li>St. Joeseph's Junior College</li>
+                <li>St. Paul&apos;s High School</li>
+                <li>St. Joeseph&apos;s Junior College</li>
                 <li>Swami Vivekanada Institute Of Technology</li>
                 
             </ul>
@@ -60,7 +60,7 @@ const About = ()=> {
     <section className='container py-28'>
         <div className='items-center gap-8 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16'>
             <div className='flex items-center justify-center pr-0'>
-               <Image src="/images/download.jpg" width={300} height={300} className='rounded-full '/> 
+               <Image src="/images/download.jpg" alt='error' width={300} height={300} className='rounded-full '/> 
             </div>
             <div>
                 <h1 className='text-4xl xl:text-6xl py-4 font-bold'>About Me</h1>

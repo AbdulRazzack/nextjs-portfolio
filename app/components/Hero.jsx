@@ -7,7 +7,7 @@ function Hero() {
   return (
     <section  className="container items-center place-self-center py-28 grid grid-cols-1 md:grid-cols-2">
       <motion.div initial={{opacity : 0, scale:0.5}} animate = {{opacity : 1,scale:1}} transition={{duration:0.5}}>
-      <h1 className='text-4xl lg:text-6xl py-4'>Hello,I'm {" "}
+      <h1 className='text-4xl lg:text-6xl py-4'>Hello,I&apos;m {" "}
       <span className='py-4'><TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
@@ -26,7 +26,7 @@ function Hero() {
       <p className='text-[#ADB7BE] text-lg lg:text-xl py-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, molestias aspernatur! Facere facilis omnis qui nulla aliquam quibusdam incidunt doloribus delectus earum quasi id consequatur architecto debitis, deleniti sapiente officiis quod quam.</p>
       </motion.div>
       <motion.div initial={{opacity : 0, scale:0.5,y:100}} animate = {{opacity : 1,scale:1,y:0}} transition={{duration:1}} className='flex items-center justify-end pr-0'>
-      <Image src="/images/doflamingo.jpg"className='rounded-full' width={300} height={300}/>
+      <Image src="/images/doflamingo.jpg" alt='error' className='rounded-full' width={300} height={300}/>
       </motion.div>
     </section>
   )
