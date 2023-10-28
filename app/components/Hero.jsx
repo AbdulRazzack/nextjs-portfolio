@@ -7,7 +7,7 @@ function Hero() {
   return (
     <section  className="container items-center place-self-center py-28 grid grid-cols-1 md:grid-cols-2">
       <motion.div initial={{opacity : 0, scale:0.5}} animate = {{opacity : 1,scale:1}} transition={{duration:0.5}}>
-      <h1 className='text-4xl lg:text-6xl py-4'>Hello,I'm {" "}
+      <h1 className='text-4xl lg:text-6xl py-4'>Hello,I&apos;m {" "}
       <span className='py-4'><TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
