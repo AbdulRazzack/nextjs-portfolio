@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import ProjectSection from './components/ProjectSection'
 import { motion } from 'framer-motion'
-import LastSegment from './components/lastSegment'
+import LastSegment from './components/LastSegment'
 
 
 export default function Home() {
