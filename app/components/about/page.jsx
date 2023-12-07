@@ -64,7 +64,7 @@ const About = ()=> {
             </div>
             <div>
                 <h1 className='text-4xl xl:text-6xl py-4 font-bold'>About Me</h1>
-                <p className='text-relaxed py-4 text-[#ADB7BE] text-lg lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo tempore atque nobis maxime, laudantium alias totam repellat itaque, veritatis amet maiores magni ea dolorum quam cupiditate similique repellendus id dolorem, omnis dolor? Nam expedita asperiores quas, voluptatum unde dolor eius quaerat.</p>
+                <p className='text-relaxed py-4 text-[#ADB7BE] text-lg lg:text-xl'>I am an enthusiastic person who is always looking for new technologies and who is excited and quick to adopt any new technologies.</p>
                 <div className="flex flex-row mt-8">
                     <TabButton 
                     selectTab={()=> handeTabChange("skills")} 

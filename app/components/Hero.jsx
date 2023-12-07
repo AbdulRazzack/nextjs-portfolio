@@ -23,7 +23,7 @@ function Hero() {
       style={{ fontSize: '1em', display: 'inline-block' }}
       repeat={Infinity}
     /></span></h1>
-      <p className='text-[#ADB7BE] text-lg lg:text-xl py-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, molestias aspernatur! Facere facilis omnis qui nulla aliquam quibusdam incidunt doloribus delectus earum quasi id consequatur architecto debitis, deleniti sapiente officiis quod quam.</p>
+      <p className='text-[#ADB7BE] text-lg lg:text-xl py-4'>To get an opportunity where I can make the best of my potential and contribute to the organization’s growth and self growth.</p>
       </motion.div>
       <motion.div initial={{opacity : 0, scale:0.5,y:100}} animate = {{opacity : 1,scale:1,y:0}} transition={{duration:1}} className='flex items-center justify-end pr-0'>
       <Image src="/images/doflamingo.jpg" alt='error' className='rounded-full' width={300} height={300}/>
